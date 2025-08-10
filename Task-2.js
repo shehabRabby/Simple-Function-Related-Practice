@@ -2,11 +2,11 @@ const n1 = 6;
 
 const result = checkEvenOdd(n1);
 
-function checkEvenOdd(n1){
-     if(n1 % 2 === 0){
-        return n1/2;
+function checkEvenOdd(n){
+     if(n % 2 === 0){
+        return n/2;
      }else{
-        return n1*2;
+        return n*2;
      }
 
 }

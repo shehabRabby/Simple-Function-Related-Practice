@@ -1,7 +1,7 @@
-function make_avg(arr){
-const leng = arr.length;
+function make_avg(arry){
+const leng = arry.length;
 let sum = 0;
-for(let i of arr){
+for(let i of arry){
      sum += i;
 }
 const avgValue = sum / leng;
